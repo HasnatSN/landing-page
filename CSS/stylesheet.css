@@ -1,0 +1,30 @@
+/* * {
+  border: 2px solid green;
+  margin: 15px;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-style: robot;
+}
+
+header {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+footer {
+  flex-shrink: 0;
+  background-color: grey;
+  color: white;
+  flex-shrink: 0;
+  font-weight: bold;
+  text-align: center;
+}
